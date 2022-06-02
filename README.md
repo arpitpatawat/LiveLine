@@ -15,7 +15,7 @@ With the help of sensor, we are building a **Health Monitoring/Awareness/Risk-Al
 1. [MAX30100 Heart Rate Sensor](https://robu.in/product/max30100-pulse-oximeter-heart-rate-sensor-module/)
 2. [NodeMCU](https://www.amazon.in/ESP8266-NodeMcu-WiFi-Development-Board/dp/B00UY8C3N0)
 3. [Power batteries](https://www.amazon.in/Powercell-Gold-Batteries-Power-Pack/dp/B08WCKLRQT/ref=sr_1_3?crid=2FFFL54ZN4OOL&keywords=power+cell&qid=1654173497&sprefix=power+cell%2Caps%2C231&sr=8-3)
-4. [jumper wires](https://www.amazon.in/ApTechDeals-Jumper-Female-breadboard-jumper/dp/B074J9CPV3/ref=sr_1_5?crid=2DEY031WSKATL&keywords=jumper+wires&qid=1654174197&sprefix=jumper+wire%2Caps%2C423&sr=8-5)
+4. [Jumper wires](https://www.amazon.in/ApTechDeals-Jumper-Female-breadboard-jumper/dp/B074J9CPV3/ref=sr_1_5?crid=2DEY031WSKATL&keywords=jumper+wires&qid=1654174197&sprefix=jumper+wire%2Caps%2C423&sr=8-5)
 
 ## MAX30100 working -
 The MAX30100 consists of a pair of high-intensity LEDs (RED and IR, both of different wavelengths) and a photodetector. The wavelengths of these LEDs are 660nm and 880nm, respectively.The MAX30100 works by shining both lights onto the finger or earlobe (or essentially anywhere where the skin isn’t too thick, so both lights can easily penetrate the tissue) and measuring the amount of reflected light using a photodetector.The oxygenated hemoglobin (HbO2) in the arterial blood has the characteristic of absorbing IR light. The redder the blood (the higher the hemoglobin), the more IR light is absorbed. As the blood is pumped through the finger with each heartbeat, the amount of reflected light changes, creating a changing waveform at the output of the photodetector. As you continue to shine light and take photodetector readings, you quickly start to get a heart-beat (HR) pulse reading.
@@ -46,7 +46,7 @@ As you can the last graph, deoxygenated blood absorbs more RED light (660nm), wh
 
 plug NodeMCU with a USB cable.
 
-## software Guide
+## Software Guide
 - Copy the code from  [LiveLine.ino file](https://github.com/arpitpatawat/LiveLine/tree/main/LiveLine/LiveLine.ino) and paste in Arduino IDE.
 - To install the library navigate to the Sketch > Include Library > Manage Libraries… Wait for Library Manager to download libraries index and update list of installed libraries.
 - Filter your search by typing max30100. There should be a couple entries. Look for MAX30100lib Library by OXullo Intersecans. Click on the entry, and then select Install.
