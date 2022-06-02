@@ -73,6 +73,14 @@ plug NodeMCU with a USB cable.
 - Hover over the non-displayed secret and click Show
 - Copy Auth ID of firebase and Also the host address
 - Paste the two values along with the code and  change wifi SSID and Password (Note that wifi band must be 2.4GHz)
+
+```
+FIREBASE_HOST "<Firebase host setting>"
+FIREBASE_AUTH "<database code>"
+WIFI_SSID "<WiFi Name>"
+WIFI_PASSWORD "<your WiFi password>"
+```
+
 - upload the code into NodeMCU
 - press your finger on the sensor and you can see below image in serial monitor
 ![image](https://user-images.githubusercontent.com/75129076/171648453-be18e114-a4c9-44b3-91ed-1ef2cc97198b.png)
