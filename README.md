@@ -24,6 +24,7 @@ Pulse oximetry is based on the principle that the amount of RED and IR light abs
 As you can the last graph, deoxygenated blood absorbs more RED light (660nm), while oxygenated blood absorbs more IR light (880nm). By measuring the ratio of IR and RED light received by the photodetector, the oxygen level (SpO2) in the blood is calculated.
 <span style="margin-right: 30px;">
 <img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MAX30100-Pulse-Detection-Photoplethysmogram.png"> 
+ <br/>
 <img src="https://user-images.githubusercontent.com/75129076/171642505-6d709771-1474-448c-9af2-b5e92c33a7ab.png" >
  </span>
 <p align="center">
@@ -46,7 +47,7 @@ As you can the last graph, deoxygenated blood absorbs more RED light (660nm), wh
 plug NodeMCU with a USB cable.
 
 ## software Guide
-- Copy the code from  [LiveLine.ino file](https://github.com/user/repo/blob/branch/other_file.md) and paste in Arduino IDE.
+- Copy the code from  [LiveLine.ino file](https://github.com/arpitpatawat/LiveLine/tree/main/LiveLine/LiveLine.ino) and paste in Arduino IDE.
 - To install the library navigate to the Sketch > Include Library > Manage Libraries… Wait for Library Manager to download libraries index and update list of installed libraries.
 - Filter your search by typing max30100. There should be a couple entries. Look for MAX30100lib Library by OXullo Intersecans. Click on the entry, and then select Install.
 - Create a Firebase project from [console](https://console.firebase.google.com/).
@@ -69,4 +70,6 @@ plug NodeMCU with a USB cable.
 - upload the code into NodeMCU
 - press your finger on the sensor and you can see below image in serial monitor
 ![image](https://user-images.githubusercontent.com/75129076/171648453-be18e114-a4c9-44b3-91ed-1ef2cc97198b.png)
- 
+this sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND )
+ ![image](https://user-images.githubusercontent.com/75129076/171649457-5e172d49-f19c-4444-aa83-ea0e530fb455.png)
+
