@@ -23,11 +23,15 @@ The MAX30100 consists of a pair of high-intensity LEDs (RED and IR, both of diff
 Pulse oximetry is based on the principle that the amount of RED and IR light absorbed varies depending on the amount of oxygen in your blood. The following graph is the absorption-spectrum of oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb).
 As you can the last graph, deoxygenated blood absorbs more RED light (660nm), while oxygenated blood absorbs more IR light (880nm). By measuring the ratio of IR and RED light received by the photodetector, the oxygen level (SpO2) in the blood is calculated.
 
-<img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MAX30100-Pulse-Detection-Photoplethysmogram.png">
+  <p align="center">
+  <img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MAX30100-Pulse-Detection-Photoplethysmogram.png" />
+</p>
  
  <br/>
  <br/>
-<img src="https://user-images.githubusercontent.com/75129076/171642505-6d709771-1474-448c-9af2-b5e92c33a7ab.png" >
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/75129076/171642505-6d709771-1474-448c-9af2-b5e92c33a7ab.png" />
+</p>
  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75129076/171643500-b8e40bcf-c2e2-49d7-acc7-4991532460ef.png" />
