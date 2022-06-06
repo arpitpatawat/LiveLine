@@ -87,3 +87,18 @@ WIFI_PASSWORD "<your WiFi password>"
 this sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND )
  ![image](https://user-images.githubusercontent.com/75129076/171649457-5e172d49-f19c-4444-aa83-ea0e530fb455.png)
 
+## App working -
+![home page](https://github.com/arpitpatawat/LiveLine/blob/main/images/home.png)
+![heart rate](https://github.com/arpitpatawat/LiveLine/blob/main/images/hrate.png)
+![spo2](https://github.com/arpitpatawat/LiveLine/blob/main/images/spo2.png)
+![body temp](https://github.com/arpitpatawat/LiveLine/blob/main/images/btemp.png)
+
+</br>
+</br?
+
+## Contributors - 
+- [Arpit Patawatp](https://github.com/arpitpatawat/)
+- [Daksh Paleria](https://github.com/dakshp07/)
+
+</br>
+If you :heart: this repo please :star: this.
