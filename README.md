@@ -102,4 +102,4 @@ this sensor can be attached with pinky finger using a tape and NodeMCU can be at
 - [Daksh Paleria](https://github.com/dakshp07/)
 
 </br>
-If you :heart: this repo please :star: this.
+If you :heart: this repo, then please :star: this.
