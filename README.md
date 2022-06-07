@@ -85,8 +85,10 @@ WIFI_PASSWORD "<your WiFi password>"
 - press your finger on the sensor and you can see below image in serial monitor
 ![image](https://user-images.githubusercontent.com/75129076/171648453-be18e114-a4c9-44b3-91ed-1ef2cc97198b.png)
 </br>
-this sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND )
- ![image](https://user-images.githubusercontent.com/75129076/171649457-5e172d49-f19c-4444-aa83-ea0e530fb455.png)
+this sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND).
+</br>
+
+![prjkt image](https://user-images.githubusercontent.com/75129076/171649457-5e172d49-f19c-4444-aa83-ea0e530fb455.png)
 
 ## App working -
 ![home page](https://github.com/arpitpatawat/LiveLine/blob/main/images/home.png)
